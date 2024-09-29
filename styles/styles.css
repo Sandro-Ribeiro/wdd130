@@ -1,5 +1,9 @@
+:root {
+  --background-color: steelblue;
+}
+
 nav {
-  background-color: steelblue;
+  background-color: var(--background-color);
   padding: 10px;
 }
 
