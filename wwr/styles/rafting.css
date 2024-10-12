@@ -30,7 +30,7 @@ header {
 	margin: 1rem auto;
   font-size: x-large;
 	display: grid;
-	grid-template-columns: 300px 1fr;
+	grid-template-columns: 200px 1fr;
 	align-items: center;
 	border-bottom: 1px solid var(--accent-color-2);
 	max-width: 1200px;
@@ -43,6 +43,7 @@ header img{
 
 .navigation{
   display: flex;
+  justify-content: space-around;
 }
 
 .navigation a {
