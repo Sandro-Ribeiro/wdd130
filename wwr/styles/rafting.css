@@ -107,12 +107,7 @@ header img{
   color: white;
 }
 
-.logo img{
-  width: 40px;
-  height: auto;
-}
-
-section {
+section{
   border-bottom: 1px solid var(--accent-color-2);
   padding-bottom: 20px;
 }
@@ -122,7 +117,44 @@ section div{
   flex-wrap: wrap;
 }
 
-section div img{
-  width: 590px;
+section figure{
+  display: flex;
+  flex-flow: column;
+  margin: 0;
+}
+
+section figcaption{
   margin: 5px;
 }
+
+section img{
+  width: 590px;
+  margin: 5px;
+  height: auto;
+}
+
+footer{
+  position:absolute;
+
+}
+
+footer nav{
+  display: float;
+  justify-content: right;
+  align-content: center;
+}
+
+footer a{
+  margin: 5px;
+}
+
+.medias img{
+  width: 40px;
+  height: auto;
+}
+
+.medias a{
+  text-decoration: none;
+}
+
+
