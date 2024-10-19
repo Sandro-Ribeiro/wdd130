@@ -172,6 +172,10 @@ footer nav{
   margin-right: 20px;
 }
 
+iframe{
+  border: 0;
+}
+
 .medias img{
   width: 40px;
   height: auto;
