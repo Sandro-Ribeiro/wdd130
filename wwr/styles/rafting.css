@@ -194,7 +194,17 @@ footer{
 footer div{
   display: flex;
   grid-column: 2;
-  ;
+  flex-direction: column;
+}
+
+footer p{
+  display: flex;
+  justify-content: center;
+}
+
+footer a{
+  display: flex;
+  justify-content: center;
 }
 
 footer nav{
