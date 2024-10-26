@@ -43,12 +43,20 @@ header img{
   height: auto;
 }
 
+header figure{
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
 .navigation{
   display: flex;
   justify-content: space-around;
 }
 
 .navigation a {
+  width: 90px;
+  text-align: center;
 	display: block;
 	color: var(--accent-color-2);
 	padding: 20px;
@@ -183,10 +191,10 @@ footer{
   margin-bottom: 10px;
 }
 
-footer p{
+footer div{
   display: flex;
   grid-column: 2;
-  justify-content: center;
+  ;
 }
 
 footer nav{
